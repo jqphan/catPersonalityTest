@@ -1,0 +1,134 @@
+
+@font-face {
+    font-family: PixelCat;
+    src: url("font/pixelCat.ttf");
+}
+
+body{
+    font-family: 'PixelCat';
+    font-size: 16px;
+    background-color: #fff4df;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px, 0;
+    text-align: center;
+
+}
+h1{
+    font-size: 35px;
+    color: #3D3333;
+}
+h2 {
+    font-size: 20px;
+    color: #3D3333}
+h3 {
+    font-size: 16px;
+    line-height: 2;
+    color: #3D3333
+}
+.question-image {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 30px auto;
+    object-fit: cover;
+    border: 4px solid #3D3333;
+}
+
+#start-button {
+    background-color: #f2bcbc;
+    color: #3D3333;
+    width: 500px;
+    height: 90px;
+    font-family: PixelCat;
+    font-size: 30px;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+
+}
+
+#start-button:hover {
+    color: #3D3333;
+    background-color: #fcd2d2;
+}
+
+.choice-button {
+    display: block;
+    margin: 20px 0;
+    padding: 12px 20px;
+    font-family: PixelCat;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    background-color: #b3cea3;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choice-button:hover {
+    background-color: #8eaa7e;
+}
+
+.choice-button.selected {
+    background-color: #8eaa7e;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#next-button {
+    background-color: #f2bcbc;
+    color: #3D3333;
+    width: 150px;
+    height: 70px;
+    font-family: PixelCat;
+    font-size: 24px;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+    margin: 70px 0;
+}
+
+#result-button {
+    background-color: #f2bcbc;
+    color: #3D3333;
+    width: 550px;
+    height: 90px;
+    font-family: PixelCat;
+    font-size: 30px;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+    margin: 250px;
+
+}
+
+#result-button:hover {
+    color: #3D3333;
+    background-color: #fcd2d2;
+}
+
+#result-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+#personality-image {
+    display: block;
+    max-width: 90vw;
+    max-height: 80vh;
+    height: auto;
+    width: auto;
+    margin: 10px 0 0;
+}

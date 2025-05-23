@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cat Personality Test </title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+</div>
+</nav>
+
+
+<div id="start-container">
+    <h1> Cat Personality Test </h1>
+    <img src="images/startimage.png" width="450" height="450">
+    <h2> Find out which cat fits your unique personality!   </h2>
+    <button id="start-button" onclick="startQuiz()">Start Quiz!</button>
+</div>
+
+<div id="question-container" style="display:none;">
+</div>
+
+<button id="next-button" onclick="nextQuestion()" style="display:none;">Next</button>
+
+<script src="quiz.js"></script>
+
+<div id="ending-screen" style="display: none;">
+    <h2>You’ve completed your journey through Kitty Ville!</h2>
+    <p>Ready to find out which cat you truly are?</p>
+    <button id="result-button" onclick="showFinalResults()">What cat am I?</button>
+</div>
+
+<div id="result-screen" style="display: none; text-align: center;">
+    <h2>Your Cat Persona:</h2>
+    <img id="personality-image" src="" class="personality-image">
+</div>
+
+<h3> Created by Jacquelyn Phan </h3>
+</body>
+</html>
+
